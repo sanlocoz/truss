@@ -1,2 +1,2 @@
 # truss
-Truss Stiffness Method Analysis of Structure
+Analysis of Truss using Stiffness Method
