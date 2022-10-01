@@ -1,10 +1,10 @@
 # truss
-Analysis of Truss using Stiffness Method
-
-> *"Creativity is the ability to introduce order into the randomness of nature"* - Eric Hoffer
 
 ## What is this program about?
-This program is about simulation using monte carlo algorithm in order to estimate $\pi$ value. Monte carlo is an algorithm to simulate stochastic events based on certain distribution and for this purpose it is just simple uniform distribution. <br>
+This program is about structural analysis using stiffness method. During learning, I tried to code the concepts of stiffness in structral analysis using the simplest structure that is 2D truss.
+
+
+simulation using monte carlo algorithm in order to estimate $\pi$ value. Monte carlo is an algorithm to simulate stochastic events based on certain distribution and for this purpose it is just simple uniform distribution. <br>
 
 <img src="img/preview.JPG" alt="monte-carlo-preview" width="400"/>
 
