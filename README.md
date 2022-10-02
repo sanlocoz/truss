@@ -33,7 +33,7 @@ Q_3 = k_{31}u_1 + k_{32}u_2 + k_{33}u_3 + k_{34}u_4\\
 Q_4 = k_{41}u_1 + k_{42}u_2 + k_{43}u_3 + k_{44} u_4\\
 \end{eqnarray}$$
 
-or in a matrix form as folllows:
+or in a matrix form as follows:
 
 $$\begin{bmatrix}
 Q_1\\
@@ -52,6 +52,10 @@ u_2\\
 u_3\\
 u_4
 \end{bmatrix}$$
+
+or
+
+$$ **Q** = **k** \times **u** $$
 
 <!--
 $$\begin{array}{ccc}
