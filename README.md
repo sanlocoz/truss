@@ -107,6 +107,16 @@ AL^2 & 0 & 0 & 0 & 0 & 0 & −AL^2 & 0 & 0 & 0 & 0 & 0\\
 
 where:
 
+$$\begin{eqnarray}
+\large L &=& radius \enspace of \enspace the \enspace circle\\
+\large A &=& side \enspace of \enspace the \enspace square\\
+\large E &=& side \enspace of \enspace the \enspace square\\
+\large G &=& side \enspace of \enspace the \enspace square\\
+\large J &=& side \enspace of \enspace the \enspace square\\
+\large I_x &=& side \enspace of \enspace the \enspace square\\
+\large I_y &=& side \enspace of \enspace the \enspace square
+\end{eqnarray}$$
+
 
 ## Resources
 Kassimali, A., 2012. *Matrix analysis of structures*. 2nd ed. Stamford: Cengage Learning.
