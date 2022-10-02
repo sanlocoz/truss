@@ -40,7 +40,12 @@ Q_1\\
 Q_2\\
 Q_3\\
 Q_4
-\end{bmatrix} = \frac{E}{L^3}$$
+\end{bmatrix} = \begin{bmatrix}
+Q_1\\
+Q_2\\
+Q_3\\
+Q_4
+\end{bmatrix}$$
 
 <!--
 $$\begin{array}{ccc}
