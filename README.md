@@ -3,6 +3,7 @@
 ## What is this program about?
 This program is about structural analysis using stiffness method. During learning, I tried to code the concepts of stiffness in structral analysis using the simplest structure that is 2D truss.
 
+haha hehe hiihi huhuh hehe hoho
 
 simulation using monte carlo algorithm in order to estimate $\pi$ value. Monte carlo is an algorithm to simulate stochastic events based on certain distribution and for this purpose it is just simple uniform distribution. <br>
 
