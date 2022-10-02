@@ -24,6 +24,14 @@ along with other end forces, to cause a unit value of displacement u<sub>j</sub>
 while all other end displacements are zero. These forces per unit displacement
 are called stiffness coefficients. (Kassimali, A.)
 
+From the figure we can get the value of Q by the summation of product between $k$ and $u$ as follows:
+
+$$\begin{eqnarray}
+Q1 = k11u1 + k12u2 + k13u3 + k14u4\\
+Q2 = k21u1 + k22u2 + k23u3 + k24u4\\
+Q3 = k31u1 + k32u2 + k33u3 + k34u4\\
+Q4 = k41u1 + k42u2 + k43u3 + k_44 u_4\\
+\end{eqnarray}$$
 <!--
 $$\begin{array}{ccc}
 x_{11} & x_{12} & x_{13}\\
