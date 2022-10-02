@@ -70,8 +70,8 @@ $$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$
 $$\phant
 -->
 ## Input
-- joint data
-- support data
+> joint data 
+> support data
 - material property data
 - cross-sectional property data
 - member data
