@@ -11,7 +11,9 @@ This picture is the derivation of stiffness matrix for 2D truss:
 
 *Notation for stiffness coefficent derivation in 2D truss elements (Kassimali, A.)*
 
-This picture is the breakdown of total displacement into each displacement components (u<sub>1</sub>, u<sub>2</sub>, u<sub>3</sub>, u<sub>4</sub>)
+2D truss elements have 2 degree of freedoms in each end. Therefore there is 4 degree of freedoms in each elements (X,Y translations in each end).
+
+This picture is the breakdown of total displacement into each displacement components (u<sub>1</sub>, u<sub>2</sub>, u<sub>3</sub>, u<sub>4</sub>):
 
 <img src="img/2.PNG" alt="2D truss structural elements" width="350"/>
 
@@ -70,8 +72,8 @@ $$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$
 $$\phant
 -->
 ## Input
-> joint data 
-> support data
+- joint data
+- support data
 - material property data
 - cross-sectional property data
 - member data
