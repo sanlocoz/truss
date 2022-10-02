@@ -67,9 +67,13 @@ $$k = \frac{EA}{L} \begin{bmatrix}
 \end{bmatrix}$$
 
 The formulation of matrix $k$ is in the local coordinates where the end forces are perpendicular or parallel with the axis of the member, for a generalized representation end forces also derived in a more global manner based on this picture below:
+
 <img src="img/3.PNG" alt="2D truss structural elements" width="350"/>
+
 <img src="img/4.PNG" alt="2D truss structural elements" width="350"/>
+
 <img src="img/5.PNG" alt="2D truss structural elements" width="350"/>
+
 <img src="img/6.PNG" alt="2D truss structural elements" width="350"/>
 <!--
 $$\begin{array}{ccc}
