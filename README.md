@@ -9,7 +9,7 @@ This picture is the derivation of stiffness matrix for 2D truss:
 
 <img src="img/1.PNG" alt="2D truss structural elements" width="700"/>
 
-*Notation for stiffness coefficent derivation in 2D truss elements (Kassimali, A.)*
+*Notation for stiffness coefficient derivation in 2D truss elements (Kassimali, A.)*
 
 2D truss elements have 2 degree of freedoms in each end. Therefore there is 4 degree of freedoms (u<sub>1</sub>, u<sub>2</sub>, u<sub>3</sub>, u<sub>4</sub>) in each elements (X, Y translations in each end).
 
@@ -17,7 +17,7 @@ This picture is the breakdown of total displacement into each displacement compo
 
 <img src="img/2.PNG" alt="2D truss structural elements" width="350"/>
 
-*Stiffness coefficents derivation (Kassimali, A.)*
+*Stiffness coefficients derivation (Kassimali, A.)*
 
 >k<sub>ij</sub> represents the force at the location and in the direction of Q<sub>i</sub> required,
 along with other end forces, to cause a unit value of displacement u<sub>j</sub>,
@@ -87,6 +87,8 @@ $$\phant
 - How structural analysis is done with computer modeling.
 - Creating a simple applications to calculate structural responses from scratch.
 - Understanding the program complexity in terms of space and time, `O(NDOF^2)`, where `NDOF` is number of degree of freedom for a simple linear analysis.
+- Understanding this simple problem serves as the foundation to know for more generalized problems (3D frame) which has 6 degree of freedoms (X, Y, Z translations and rotations) in each end of the members. The stiffness coefficient is given below:
+
 
 ## Resources
 Kassimali, A., 2012. *Matrix analysis of structures*. 2nd ed. Stamford: Cengage Learning.
