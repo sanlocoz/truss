@@ -27,10 +27,10 @@ are called stiffness coefficients. (Kassimali, A.)
 From the figure we can get the value of $Q$ by the summation of product between $k$ and $u$ as follows:
 
 $$\begin{eqnarray}
-Q1 = k11u1 + k12u2 + k13u3 + k14u4\\
-Q2 = k21u1 + k22u2 + k23u3 + k24u4\\
-Q3 = k31u1 + k32u2 + k33u3 + k34u4\\
-Q4 = k41u1 + k_{42}u_2 + k_{43}u_3 + k_{44} u_4\\
+Q1 = k_{11}u_1 + k_{12}u_2 + k_{13}u_3 + k_{14}u_4\\
+Q2 = k_{21}u_1 + k_{22}u_2 + k_{23}u_3 + k_{24}u_4\\
+Q3 = k_{31}u_1 + k_{32}u_2 + k_{33}u_3 + k_{34}u_4\\
+Q4 = k_{41}u1 + k_{42}u_2 + k_{43}u_3 + k_{44} u_4\\
 \end{eqnarray}$$
 <!--
 $$\begin{array}{ccc}
