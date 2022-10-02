@@ -108,13 +108,13 @@ AL^2 & 0 & 0 & 0 & 0 & 0 & −AL^2 & 0 & 0 & 0 & 0 & 0\\
 where:
 
 $$\begin{eqnarray}
-\large L &=& radius \enspace of \enspace the \enspace circle\\
-\large A &=& side \enspace of \enspace the \enspace square\\
-\large E &=& side \enspace of \enspace the \enspace square\\
-\large G &=& side \enspace of \enspace the \enspace square\\
-\large J &=& side \enspace of \enspace the \enspace square\\
-\large I_x &=& side \enspace of \enspace the \enspace square\\
-\large I_y &=& side \enspace of \enspace the \enspace square
+\large L &=& member \enspace length\\
+\large A &=& cross \enspace sectional \enspace area\\
+\large E &=& modulus \enspace of \enspace elasticity\\
+\large G &=& shear \enspace modulus\\
+\large J &=& torsion \enspace constant\\
+\large I_x &=& moment \enspace of \enspace inertia \enspace x-x\\
+\large I_y &=& moment \enspace of \enspace inertia \enspace y-y\\
 \end{eqnarray}$$
 
 
