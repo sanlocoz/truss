@@ -78,7 +78,10 @@ The formulation of matrix $k$ is in the local coordinates where the end forces a
 
 *Stiffness coefficients derivation in global coordinates (Kassimali, A.)*
 
-For the global coordinates the variable used are $F$, $K$ and $v$ that corresponds to $Q$, $k$ and $u$ in local manner.
+For the global coordinates the variable used are $F$, $K$ and $v$ that corresponds to $Q$, $k$ and $u$ in local manner consecutively.
+
+$$ **F** = **K** \times **v** $$
+
 ## Input
 - joint data
 - support data
