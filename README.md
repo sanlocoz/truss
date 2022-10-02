@@ -87,8 +87,35 @@ $$\phant
 - How structural analysis is done with computer modeling.
 - Creating a simple applications to calculate structural responses from scratch.
 - Understanding the program complexity in terms of space and time, `O(NDOF<sup>2</sup>)`, where `NDOF` is number of degree of freedom for a simple linear analysis.
-- Understanding this simple problem serves as the foundation to know for more generalized problems (3D frame) which has 6 degree of freedoms (X, Y, Z translations and rotations) in each end of the members. The stiffness coefficient is given below:
+- Understanding this simple problem serves as the foundation to know for more generalized problems (3D frames) which has 6 degree of freedoms (X, Y, Z translations and rotations) in each end of the members. The stiffness coefficient is given below:
+\begin{bmatrix}
+AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
+AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
+AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
+AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0
+\end{bmatrix}
 
+0 12Iz 0 0 0 6L Iz 0 −12Iz 0 0 0 6L Iz
+0 0 12Iy 0 −6L Iy 0 0 0 −12Iy 0 −6L Iy 0
+0 0 0
+GJL2
+E
+0 0 0 0 0 −GJL2
+E
+0 0
+0 0 −6L Iy 0 4L2 Iy 0 0 0 6L Iy 0 2L2 Iy 0
+0 6L Iz 0 0 0 4L2 Iz 0 −6L Iz 0 0 0 2L2 Iz
+−AL2 0 0 0 0 0 AL2 0 0 0 0 0
+0 −12Iz 0 0 0 −6L Iz 0 12Iz 0 0 0 −6L Iz
+0 0 −12Iy 0 6L Iy 0 0 0 12Iy 0 6L Iy 0
+0 0 0 −GJL2
+E
+0 0 0 0 0
+GJL2
+E
+0 0
+0 0 −6L Iy 0 2L2 Iy 0 0 0 6L Iy 0 4L2 Iy 0
+0 6L Iz 0 0 0 2L2 Iz 0 −6L Iz 0 0 0 4L2 Iz
 
 ## Resources
 Kassimali, A., 2012. *Matrix analysis of structures*. 2nd ed. Stamford: Cengage Learning.
