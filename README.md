@@ -27,11 +27,36 @@ are called stiffness coefficients. (Kassimali, A.)
 From the figure we can get the value of $Q$ by the summation of product between $k$ and $u$ as follows:
 
 $$\begin{eqnarray}
-Q1 = k_{11}u_1 + k_{12}u_2 + k_{13}u_3 + k_{14}u_4\\
-Q2 = k_{21}u_1 + k_{22}u_2 + k_{23}u_3 + k_{24}u_4\\
-Q3 = k_{31}u_1 + k_{32}u_2 + k_{33}u_3 + k_{34}u_4\\
-Q4 = k_{41}u1 + k_{42}u_2 + k_{43}u_3 + k_{44} u_4\\
+Q_1 = k_{11}u_1 + k_{12}u_2 + k_{13}u_3 + k_{14}u_4\\
+Q_2 = k_{21}u_1 + k_{22}u_2 + k_{23}u_3 + k_{24}u_4\\
+Q_3 = k_{31}u_1 + k_{32}u_2 + k_{33}u_3 + k_{34}u_4\\
+Q_4 = k_{41}u1 + k_{42}u_2 + k_{43}u_3 + k_{44} u_4\\
 \end{eqnarray}$$
+
+or in a matrix form as folllows:
+
+$$\begin{bmatrix}
+Q_1\\
+Q_2\\
+Q_3\\
+Q_4
+\end{bmatrix} = \frac{E}{L^3}
+
+\begin{bmatrix}
+AL^2 & 0 & 0 & 0 & 0 & 0 & −AL^2 & 0 & 0 & 0 & 0 & 0\\
+0 & 12I_z & 0 & 0 & 0 & 6LI_z & 0 & −12I_z & 0 & 0 & 0 & 6LI_z\\
+0 & 0 & 12I_y & 0 & −6LI_y & 0 & 0 & 0 & −12I_y & 0 & −6LI_y & 0\\
+0 & 0 & 0 & \frac{GJL^2}{E} & 0 & 0 & 0 & 0 & 0 & \frac{-GJL^2}{E}& 0 & 0\\
+0 & 0 & −6LI_y & 0 & 4L^2I_y & 0 & 0 & 0 & 6LI_y & 0 & 2L^2I_y & 0\\
+0 & 6LI_z & 0 & 0 & 0 & 4L^2I_z & 0 & −6LI_z & 0 & 0 & 0 & 2L^2I_z\\
+−AL^2 & 0 & 0 & 0 & 0 & 0 & AL^2 & 0 & 0 & 0 & 0 & 0\\
+0 & −12I_z & 0 & 0 & 0 & −6LI_z & 0 & 12I_z & 0 & 0 & 0 & −6LI_z\\
+0 & 0 & −12I_y & 0 & 6LI_y & 0 & 0 & 0 & 12I_y & 0 & 6LI_y & 0\\
+0 & 0 & 0 & \frac{-GJL^2}{E} & 0 & 0 & 0 & 0 & 0 & \frac{GJL^2}{E} & 0 & 0\\
+0 & 0 & −6LI_y & 0 & 2L^2I_y & 0 & 0 & 0 & 6LI_y & 0 & 4L^2I_y & 0\\
+0 & 6LI_z & 0 & 0 & 0 & 2L^2I_z & 0 & −6LI_z & 0 & 0 & 0 & 4L^2I_z
+\end{bmatrix}$$
+
 <!--
 $$\begin{array}{ccc}
 x_{11} & x_{12} & x_{13}\\
