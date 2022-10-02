@@ -70,8 +70,16 @@ $$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$
 $$\phant
 -->
 ## Input
+- joint data
+- support data
+- material property data
+- cross-sectional property data
+- member data
+- load data
 
 ## Output
+- displacements
+- member end forces
 
 ## What things that I learned during the process?
 - How structural analysis is done with computer modeling.
