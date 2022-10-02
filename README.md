@@ -13,7 +13,7 @@ This picture is the derivation of stiffness matrix for 2D truss:
 
 This picture is the breakdown of total displacement into each displacement components (u<sub>1</sub>, u<sub>2</sub>, u<sub>3</sub>, u<sub>4</sub>)
 
-<img src="img/1.PNG" alt="2D truss structural elements" width="700"/>
+<img src="img/2.PNG" alt="2D truss structural elements" width="700"/>
 
 *Stiffness coefficents derivation (Kassimali, A.)*
 
