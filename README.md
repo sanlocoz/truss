@@ -24,42 +24,6 @@ along with other end forces, to cause a unit value of displacement u<sub>j</sub>
 while all other end displacements are zero. These forces per unit displacement
 are called stiffness coefficients. (Kassimali, A.)
 
-The idea behind this program is to simulate randomized dot marking in each timestep in a space of a circle that is enclosed within a square. We count and separate the dots as follows:
-- **Blue dots**: the dots that lie within the circle.
-- **Red dots**: the dots that lie outside the circle and within the square.
-
-The ratio of circle and square area will be approximated better to its true value as the number of dots gets larger. Because the same probability of dots falling in each pixel in the square, we can conclude that portion of the dots in each area correlates linearly with the area of circle and square, as follows: <br> <br>
-
-$$\large circle \textunderscore area = number \textunderscore of \textunderscore blue \textunderscore dots$$
-
-$$\large square \textunderscore area = number \textunderscore of \textunderscore blue \textunderscore dots + number \textunderscore of \textunderscore red \textunderscore dots$$
-
-If we take the ratio of circle and square area:
-
-$$\begin{eqnarray}
-\large\frac{circle\textunderscore area}{square\textunderscore area} &=& \frac{\pi r^2}{(2r)^2}\\
-\large &=& \frac{\pi r^2}{4r^2} &=& \frac{\pi}{4}\\
-\end{eqnarray}$$
-
-where:
-
-$$\begin{eqnarray}
-\large r &=& radius \enspace of \enspace the \enspace circle\\
-\large 2 \times r &=& side \enspace of \enspace the \enspace square\\
-\end{eqnarray}$$
-
-Therefore to get $\pi$ we can use this formula:
-
-$$\begin{eqnarray}
-\large\pi &=& \frac{4\times\ circle\textunderscore area}{square\textunderscore area}\\
-\large &=& \frac{4\times\ number \textunderscore of \textunderscore blue \textunderscore dots}{number \textunderscore of \textunderscore blue \textunderscore dots + number \textunderscore of \textunderscore red \textunderscore dots}\\
-\end{eqnarray}$$
-
-$$\begin{array}{ccc}
-x_{11} & x_{12} & x_{13}\\
-x_{21} & x_{22} & x_{23}
-\end{array}$$
-
 <!--
 $$\begin{array}{ccc}
 x_{11} & x_{12} & x_{13}\\
@@ -113,8 +77,8 @@ $$\begin{eqnarray}
 \large E &=& modulus \enspace of \enspace elasticity\\
 \large G &=& shear \enspace modulus\\
 \large J &=& torsion \enspace constant\\
-\large I_x &=& moment \enspace of \enspace inertia \enspace x-x\\
 \large I_y &=& moment \enspace of \enspace inertia \enspace y-y\\
+\large I_z &=& moment \enspace of \enspace inertia \enspace z-z\\
 \end{eqnarray}$$
 
 
