@@ -75,17 +75,7 @@ The formulation of matrix $k$ is in the local coordinates where the end forces a
 <img src="img/5.PNG" alt="2D truss structural elements" width="350"/>
 
 <img src="img/6.PNG" alt="2D truss structural elements" width="350"/>
-<!--
-$$\begin{array}{ccc}
-x_{11} & x_{12} & x_{13}\\
-x_{21} & x_{22} & x_{23}
-\end{array}$$
-$$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$
-$$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$
-\[\begin{align*}2x -12 &= 4\\@lhs(sol)@ &= @rhs(sol)@ \end{align*}\]
 
-$$\phant
--->
 ## Input
 - joint data
 - support data
