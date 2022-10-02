@@ -82,14 +82,19 @@ For the global coordinates the variable used are $F$, $K$ and $v$ that correspon
 
 $$ **F** = **K** \times **v** $$
 
-For more details about formulation of $K$ it can be read through book in the resources below. Matrik $K$ can be derived from $k$ using coordinates transformation to get equation as follows:
+For more details about formulation of $K$ it can be read through book in the resources below. Matrix $K$ can be derived from $k$ using coordinates transformation to get equation as follows:
 
 $$k = \frac{EA}{L} \begin{bmatrix}
-1 & 0 & -1 & 0\\
-0 & 0 & 0 & 0\\
--1 & 0 & 1 & 0\\
-0 & 0 & 0 & 0\\
+cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta\\
+cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta\\
+cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta\\
+cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta\\
 \end{bmatrix}$$
+
+cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta
+cos/theta & sin/theta & sin^2/theta & −cos/theta & sin/theta & −sin^2/theta
+−cos^2/theta & −cos/theta & sin/theta & cos^2/theta & cos/theta & sin/theta
+−cos/theta & sin/theta & −sin^2/theta & cos/theta & sin/theta & sin^2/theta
 
 ## Input
 - joint data
