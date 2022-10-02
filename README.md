@@ -1,8 +1,11 @@
 # truss
 
 ## What is this program about?
-This program is about structural analysis using stiffness method. During learning, I tried to code the concepts of stiffness in structral analysis using the simplest structure that is 2D truss.
+This program is about structural analysis using stiffness method. 
+During learning, I tried to code the concepts of stiffness in structral analysis using the simplest structure that is 2D truss.
+Unlike flexibility methods where internal forces is solved to get delfections, in stiffness method we solve for the deflections first to get internal forces.
 
+This picture is the derivation of stiffness matrix for 2D matrix.
 haha hehe hiihi huhuh hehe hoho
 
 simulation using monte carlo algorithm in order to estimate $\pi$ value. Monte carlo is an algorithm to simulate stochastic events based on certain distribution and for this purpose it is just simple uniform distribution. <br>
