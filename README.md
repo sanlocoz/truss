@@ -78,9 +78,18 @@ The formulation of matrix $k$ is in the local coordinates where the end forces a
 
 *Stiffness coefficients derivation in global coordinates (Kassimali, A.)*
 
-For the global coordinates the variable used are $F$, $K$ and $v$ that corresponds to $Q$, $k$ and $u$ in local manner consecutively.
+For the global coordinates the variable used are $F$, $K$ and $v$ that corresponds to $Q$, $k$ and $u$ in local manner consecutively. We can write this equation that correlates stiffness, end forces and displacement in global coordinates:
 
 $$ **F** = **K** \times **v** $$
+
+For more details about formulation of $K$ it can be read through book in the resources below. Matrik $K$ can be derived from $k$ using coordinates transformation to get equation as follows:
+
+$$k = \frac{EA}{L} \begin{bmatrix}
+1 & 0 & -1 & 0\\
+0 & 0 & 0 & 0\\
+-1 & 0 & 1 & 0\\
+0 & 0 & 0 & 0\\
+\end{bmatrix}$$
 
 ## Input
 - joint data
