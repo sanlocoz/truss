@@ -90,20 +90,14 @@ $$\phant
 - Understanding this simple problem serves as the foundation to know for more generalized problems (3D frames) which has 6 degree of freedoms (X, Y, Z translations and rotations) in each end of the members. The stiffness coefficient is given below:
 
 $$\begin{bmatrix}
-AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
-AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
-AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
-AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0
+AL^2 & 0 & 0 & 0 & 0 & 0 & −AL^2 & 0 & 0 & 0 & 0 & 0\\
 \end{bmatrix}$$
+
+
 
 0 12Iz 0 0 0 6L Iz 0 −12Iz 0 0 0 6L Iz
 0 0 12Iy 0 −6L Iy 0 0 0 −12Iy 0 −6L Iy 0
-0 0 0
-GJL2
-E
-0 0 0 0 0 −GJL2
-E
-0 0
+0 0 0 GJL2E 0 0 0 0 0 −GJL2E 0 0
 0 0 −6L Iy 0 4L2 Iy 0 0 0 6L Iy 0 2L2 Iy 0
 0 6L Iz 0 0 0 4L2 Iz 0 −6L Iz 0 0 0 2L2 Iz
 −AL2 0 0 0 0 0 AL2 0 0 0 0 0
