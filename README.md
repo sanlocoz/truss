@@ -10,7 +10,7 @@ haha hehe hiihi huhuh hehe hoho
 
 simulation using monte carlo algorithm in order to estimate $\pi$ value. Monte carlo is an algorithm to simulate stochastic events based on certain distribution and for this purpose it is just simple uniform distribution. <br>
 
-<img src="img/preview.JPG" alt="monte-carlo-preview" width="400"/>
+<img src="img/1.PNG" alt="2D truss structural elements" width="400"/>
 
 *Finished state of the program*
 
