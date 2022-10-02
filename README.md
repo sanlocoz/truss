@@ -6,13 +6,10 @@ During learning, I tried to code the concepts of stiffness in structral analysis
 Unlike flexibility methods where internal forces is solved to get delfections, in stiffness method we solve for the deflections first to get internal forces.
 
 This picture is the derivation of stiffness matrix for 2D matrix.
-haha hehe hiihi huhuh hehe hoho
 
-simulation using monte carlo algorithm in order to estimate $\pi$ value. Monte carlo is an algorithm to simulate stochastic events based on certain distribution and for this purpose it is just simple uniform distribution. <br>
+<img src="img/1.PNG" alt="2D truss structural elements" width="700"/>
 
-<img src="img/1.PNG" alt="2D truss structural elements" width="400"/>
-
-*Finished state of the program*
+*Notation for stiffness coefficent derivation in 2D truss elements*
 
 The idea behind this program is to simulate randomized dot marking in each timestep in a space of a circle that is enclosed within a square. We count and separate the dots as follows:
 - **Blue dots**: the dots that lie within the circle.
