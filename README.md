@@ -89,11 +89,12 @@ $$\phant
 - Understanding the program complexity in terms of space and time, $O(NDOF^2)$, where $NDOF$ is number of degree of freedom for a simple linear analysis.
 - Understanding this simple problem serves as the foundation to know for more generalized problems (3D frames) which has 6 degree of freedoms (X, Y, Z translations and rotations) in each end of the members. The stiffness coefficient is given below:
 
-$$\begin{bmatrix}
+$$k = \frac{E}{L^3}
+\begin{bmatrix}
 AL^2 & 0 & 0 & 0 & 0 & 0 & −AL^2 & 0 & 0 & 0 & 0 & 0\\
 0 & 12I_z & 0 & 0 & 0 & 6LI_z & 0 & −12I_z & 0 & 0 & 0 & 6LI_z\\
 0 & 0 & 12I_y & 0 & −6LI_y & 0 & 0 & 0 & −12I_y & 0 & −6LI_y & 0\\
-0 & 0 & 0 & GJL^2/E & 0 & 0 & 0 & 0 & 0 & −GJL^2/E & 0 & 0\\
+0 & 0 & 0 & \frac{GJL^2}{E} & 0 & 0 & 0 & 0 & 0 & −GJL^2/E & 0 & 0\\
 0 & 0 & −6LI_y & 0 & 4L^2I_y & 0 & 0 & 0 & 6LI_y & 0 & 2L^2I_y & 0\\
 0 & 6LI_z & 0 & 0 & 0 & 4L^2I_z & 0 & −6LI_z & 0 & 0 & 0 & 2L^2I_z
 \end{bmatrix}$$
