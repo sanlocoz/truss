@@ -42,6 +42,11 @@ $$\begin{eqnarray}
 \large &=& \frac{4\times\ number \textunderscore of \textunderscore blue \textunderscore dots}{number \textunderscore of \textunderscore blue \textunderscore dots + number \textunderscore of \textunderscore red \textunderscore dots}\\
 \end{eqnarray}$$
 
+$$\begin{array}{ccc}
+x_{11} & x_{12} & x_{13}\\
+x_{21} & x_{22} & x_{23}
+\end{array}$$
+
 <!--
 $$\begin{array}{ccc}
 x_{11} & x_{12} & x_{13}\\
