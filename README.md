@@ -11,10 +11,10 @@ This picture is the derivation of stiffness matrix for 2D truss:
 
 *Notation for stiffness coefficent derivation in 2D truss elements (Kassimali, A.)*
 
->k_ij represents the force at the location and in the direction of Q_i required,
+>k<sub>ij</sub> represents the force at the location and in the direction of Q_i required,
 along with other end forces, to cause a unit value of displacement u_j,
 while all other end displacements are zero. These forces per unit displacement
-are called stiffness coefficients. (Kassimali, A. , page 60)
+are called stiffness coefficients. (Kassimali, A., page 60)
 
 The idea behind this program is to simulate randomized dot marking in each timestep in a space of a circle that is enclosed within a square. We count and separate the dots as follows:
 - **Blue dots**: the dots that lie within the circle.
