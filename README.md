@@ -102,8 +102,11 @@ AL^2 & 0 & 0 & 0 & 0 & 0 & −AL^2 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & −12I_y & 0 & 6LI_y & 0 & 0 & 0 & 12I_y & 0 & 6LI_y & 0\\
 0 & 0 & 0 & \frac{-GJL^2}{E} & 0 & 0 & 0 & 0 & 0 & \frac{GJL^2}{E} & 0 & 0\\
 0 & 0 & −6LI_y & 0 & 2L^2I_y & 0 & 0 & 0 & 6LI_y & 0 & 4L^2I_y & 0\\
-0 & 6LI_z & 0 & 0 & 0 & 2L^2I_z & 0 & −6LI_z & 0 & 0 & 0 & 4L2I_z
+0 & 6LI_z & 0 & 0 & 0 & 2L^2I_z & 0 & −6LI_z & 0 & 0 & 0 & 4L^2I_z
 \end{bmatrix}$$
+
+where:
+
 
 ## Resources
 Kassimali, A., 2012. *Matrix analysis of structures*. 2nd ed. Stamford: Cengage Learning.
