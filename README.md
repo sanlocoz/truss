@@ -65,6 +65,9 @@ $$k = \frac{EA}{L} \begin{bmatrix}
 -1 & 0 & 1 & 0\\
 0 & 0 & 0 & 0\\
 \end{bmatrix}$$
+
+The formulation of matrix $k$ is in the local coordinates where the end forces is perpendicular or parallel with the axis of the member, for a generalized representation end forces also derived in a more global manner based on this picture below:
+
 <!--
 $$\begin{array}{ccc}
 x_{11} & x_{12} & x_{13}\\
