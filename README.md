@@ -85,16 +85,16 @@ $$ **F** = **K** \times **v** $$
 For more details about formulation of $K$ it can be read through book in the resources below. Matrix $K$ can be derived from $k$ using coordinates transformation to get equation as follows:
 
 $$k = \frac{EA}{L} \begin{bmatrix}
-cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta\\
-cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta\\
-cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta\\
-cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta\\
+cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
+cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
+cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
+cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
 \end{bmatrix}$$
 
-cos^2/theta & cos/theta sin/theta & −cos^2/theta & −cos/theta sin/theta
-cos/theta & sin/theta & sin^2/theta & −cos/theta & sin/theta & −sin^2/theta
-−cos^2/theta & −cos/theta & sin/theta & cos^2/theta & cos/theta & sin/theta
-−cos/theta & sin/theta & −sin^2/theta & cos/theta & sin/theta & sin^2/theta
+cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta
+cos\theta & sin\theta & sin^2\theta & −cos\theta & sin\theta & −sin^2\theta
+−cos^2\theta & −cos\theta & sin\theta & cos^2\theta & cos\theta & sin\theta
+−cos\theta & sin\theta & −sin^2\theta & cos\theta & sin\theta & sin^2\theta
 
 ## Input
 - joint data
