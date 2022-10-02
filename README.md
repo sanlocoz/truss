@@ -57,6 +57,14 @@ or
 
 $$ **Q** = **k** \times **u** $$
 
+using equilibrium equations it can be shown that the matrix $k$ equal to:
+
+$$k = \begin{bmatrix}
+k_{11} & k_{12} & k_{13} & k_{14}\\
+k_{21} & k_{22} & k_{23} & k_{24}\\
+k_{31} & k_{32} & k_{33} & k_{34}\\
+k_{41} & k_{42} & k_{43} & k_{44} 
+\end{bmatrix}$$
 <!--
 $$\begin{array}{ccc}
 x_{11} & x_{12} & x_{13}\\
