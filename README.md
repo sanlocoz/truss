@@ -69,11 +69,14 @@ $$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$
 
 $$\phant
 -->
+## Input
+
+## Output
 
 ## What things that I learned during the process?
 - How structural analysis is done with computer modeling.
 - Creating a simple applications to calculate structural responses from scratch.
-- Understanding the program complexity in terms of space and time, `O(NDOF x NDOF)`, where NDOF is number of degree of freedom for a simple linear analysis.
+- Understanding the program complexity in terms of space and time, `O(NDOF^2)`, where `NDOF` is number of degree of freedom for a simple linear analysis.
 
 ## Resources
-Horstmann, C., 2018. *Big Java*. New York: Wiley.
+Kassimali, A., 2012. *Matrix analysis of structures*. 2nd ed. Stamford: Cengage Learning.
