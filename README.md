@@ -11,7 +11,7 @@ This picture is the derivation of stiffness matrix for 2D truss:
 
 *Notation for stiffness coefficent derivation in 2D truss elements (Kassimali, A.)*
 
-2D truss elements have 2 degree of freedoms in each end. Therefore there is 4 degree of freedoms in each elements (X,Y translations in each end).
+2D truss elements have 2 degree of freedoms in each end. Therefore there is 4 degree of freedoms (u<sub>1</sub>, u<sub>2</sub>, u<sub>3</sub>, u<sub>4</sub>) in each elements (X, Y translations in each end).
 
 This picture is the breakdown of total displacement into each displacement components (u<sub>1</sub>, u<sub>2</sub>, u<sub>3</sub>, u<sub>4</sub>):
 
