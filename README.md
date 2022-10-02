@@ -11,8 +11,9 @@ This picture is the derivation of stiffness matrix for 2D truss:
 
 *Notation for stiffness coefficent derivation in 2D truss elements (Kassimali, A.)*
 
->k<sub>ij</sub> represents the force at the location and in the direction of Q_i required,
-along with other end forces, to cause a unit value of displacement u_j,
+This picture is the breakdown of total displacement into each displacement components (u<sub>1</sub>, u<sub>2</sub>, u<sub>3</sub>, u<sub>4</sub>)
+>k<sub>ij</sub> represents the force at the location and in the direction of Q<sub>i</sub> required,
+along with other end forces, to cause a unit value of displacement u<sub>j</sub>,
 while all other end displacements are zero. These forces per unit displacement
 are called stiffness coefficients. (Kassimali, A., page 60)
 
