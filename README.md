@@ -91,16 +91,20 @@ $$\phant
 
 $$\begin{bmatrix}
 AL^2 & 0 & 0 & 0 & 0 & 0 & −AL^2 & 0 & 0 & 0 & 0 & 0\\
-0 & 12I_z & 0 & 0 & 0 & 6LI_z & 0 & −12I_z & 0 & 0 & 0 & 6LI_z
+0 & 12I_z & 0 & 0 & 0 & 6LI_z & 0 & −12I_z & 0 & 0 & 0 & 6LI_z\\
+0 & 0 & 12I_y & 0 & −6LI_y & 0 & 0 & 0 & −12I_y & 0 & −6LI_y & 0\\
+0 & 0 & 0 & GJL^2/E & 0 & 0 & 0 & 0 & 0 & −GJL^2/E & 0 & 0\\
+0 & 0 & −6LI_y & 0 & 4L^2I_y & 0 & 0 & 0 & 6LI_y & 0 & 2L^2I_y & 0\\
+0 & 6LI_z & 0 & 0 & 0 & 4L^2I_z & 0 & −6LI_z & 0 & 0 & 0 & 2L^2I_z
 \end{bmatrix}$$
 
 
 
 
-0 0 12Iy 0 −6L Iy 0 0 0 −12Iy 0 −6L Iy 0
-0 0 0 GJL2E 0 0 0 0 0 −GJL2E 0 0
-0 0 −6L Iy 0 4L2 Iy 0 0 0 6L Iy 0 2L2 Iy 0
-0 6L Iz 0 0 0 4L2 Iz 0 −6L Iz 0 0 0 2L2 Iz
+
+
+
+
 −AL2 0 0 0 0 0 AL2 0 0 0 0 0
 0 −12Iz 0 0 0 −6L Iz 0 12Iz 0 0 0 −6L Iz
 0 0 −12Iy 0 6L Iy 0 0 0 12Iy 0 6L Iy 0
