@@ -86,15 +86,10 @@ For more details about formulation of $K$ it can be read through book in the res
 
 $$k = \frac{EA}{L} \begin{bmatrix}
 cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
-cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
-cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
-cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
+cos\theta sin\theta & sin^2\theta & −cos\theta sin\theta & −sin^2\theta\\
+−cos^2\theta & −cos\theta sin\theta & cos^2\theta & cos\theta sin\theta\\
+−cos\theta sin\theta & −sin^2\theta & cos\theta sin\theta & sin^2\theta\\
 \end{bmatrix}$$
-
-cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta
-cos\theta & sin\theta & sin^2\theta & −cos\theta & sin\theta & −sin^2\theta
-−cos^2\theta & −cos\theta & sin\theta & cos^2\theta & cos\theta & sin\theta
-−cos\theta & sin\theta & −sin^2\theta & cos\theta & sin\theta & sin^2\theta
 
 ## Input
 - joint data
