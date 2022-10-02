@@ -76,6 +76,9 @@ The formulation of matrix $k$ is in the local coordinates where the end forces a
 
 <img src="img/6.PNG" alt="2D truss structural elements" width="350"/>
 
+*Stiffness coefficients derivation in global coordinates (Kassimali, A.)*
+
+For the global coordinates the variable used are $F$, $K$ and $v$ that corresponds to $Q$, $k$ and $u$ in local manner.
 ## Input
 - joint data
 - support data
