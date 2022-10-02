@@ -91,7 +91,7 @@ cos\theta sin\theta & sin^2\theta & −cos\theta sin\theta & −sin^2\theta\\
 −cos\theta sin\theta & −sin^2\theta & cos\theta sin\theta & sin^2\theta\\
 \end{bmatrix}$$
 
-For the next steps are in the resources. It contains of assembly of elements stiffness matrices into structural matrices and solving the equations using given compatibility in joint forces and reactions.
+For the next steps are in the resources. It contains the process of assembling element stiffness matrices into structural stiffness matrices and solving the equations using given compatibility in joint forces and reactions.
 
 ## Input
 - joint data
