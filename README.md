@@ -109,7 +109,7 @@ For the next steps are in the resources. It contains the process of assembling e
 - How structural analysis is done with computer modeling.
 - Creating a simple applications to calculate structural responses from scratch.
 - Understanding the program complexity in terms of space and time, $O(NDOF^2)$, where $NDOF$ is number of degree of freedom for a simple linear analysis.
-- Understanding this simple problem serves as the foundation to know for more generalized problems (3D frames) which has 6 degree of freedoms (X, Y, Z translations and rotations) in each end of the members. The stiffness coefficient is given below:
+- Understanding this simple problem serves as the foundation to know for more generalized problems (3D frames) which has 6 degree of freedoms (X, Y, Z translations and rotations) in each end of the members. The stiffness coefficients is given below:
 
 $$k = \frac{E}{L^3}
 \begin{bmatrix}
