@@ -89,7 +89,7 @@ $$\phant
 - Understanding the program complexity in terms of space and time, `O(NDOF<sup>2</sup>)`, where `NDOF` is number of degree of freedom for a simple linear analysis.
 - Understanding this simple problem serves as the foundation to know for more generalized problems (3D frames) which has 6 degree of freedoms (X, Y, Z translations and rotations) in each end of the members. The stiffness coefficient is given below:
 
-$$\begin{bmatrix}{ccc}
+$$\begin{bmatrix}
 AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
 AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
 AL2 & 0 & 0 & 0 & 0 & 0 & −AL2 & 0 & 0 & 0 & 0 & 0\\
