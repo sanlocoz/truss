@@ -30,7 +30,7 @@ $$\begin{eqnarray}
 Q1 = k11u1 + k12u2 + k13u3 + k14u4\\
 Q2 = k21u1 + k22u2 + k23u3 + k24u4\\
 Q3 = k31u1 + k32u2 + k33u3 + k34u4\\
-Q4 = k41u1 + k42u2 + k43u3 + k_4_4 u_4\\
+Q4 = k41u1 + k42u2 + k43u3 + k_(44) u_4\\
 \end{eqnarray}$$
 <!--
 $$\begin{array}{ccc}
