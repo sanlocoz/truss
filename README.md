@@ -84,12 +84,14 @@ $$ **F** = **K** \times **v** $$
 
 For more details about formulation of $K$ it can be read through book in the resources below. Matrix $K$ can be derived from $k$ using coordinates transformation to get equation as follows:
 
-$$k = \frac{EA}{L} \begin{bmatrix}
+$$K = \frac{EA}{L} \begin{bmatrix}
 cos^2\theta & cos\theta sin\theta & −cos^2\theta & −cos\theta sin\theta\\
 cos\theta sin\theta & sin^2\theta & −cos\theta sin\theta & −sin^2\theta\\
 −cos^2\theta & −cos\theta sin\theta & cos^2\theta & cos\theta sin\theta\\
 −cos\theta sin\theta & −sin^2\theta & cos\theta sin\theta & sin^2\theta\\
 \end{bmatrix}$$
+
+For the next steps are in the resources. It contains of assembly of elements stiffness matrices into structural matrices and solving the equations using given compatibility in joint forces and reactions.
 
 ## Input
 - joint data
