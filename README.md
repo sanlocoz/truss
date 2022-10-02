@@ -3,13 +3,13 @@
 ## What is this program about?
 This program is about structural analysis using stiffness method. 
 During learning, I tried to code the concepts of stiffness in structral analysis using the simplest structure that is 2D truss.
-Unlike flexibility methods where internal forces is solved to get delfections, in stiffness method we solve for the deflections first to get internal forces.
+Unlike flexibility methods where internal forces are solved to get delfections, in stiffness method we solve for the deflections first to get internal forces.
 
-This picture is the derivation of stiffness matrix for 2D matrix.
+This picture is the derivation of stiffness matrix for 2D truss.
 
 <img src="img/1.PNG" alt="2D truss structural elements" width="700"/>
 
-*Notation for stiffness coefficent derivation in 2D truss elements*
+*Notation for stiffness coefficent derivation in 2D truss elements (Kassimali, A.)*
 
 The idea behind this program is to simulate randomized dot marking in each timestep in a space of a circle that is enclosed within a square. We count and separate the dots as follows:
 - **Blue dots**: the dots that lie within the circle.
